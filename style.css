@@ -56,6 +56,10 @@ body {
     justify-content: center;
     
 }
+
+.menu-one {
+    padding-right: 700px;
+}
 .tanamao {
     display: grid;
     align-items: center;
