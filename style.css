@@ -33,7 +33,7 @@ body {
     display: inline; 
     align-items: center;
     justify-content: center; 
-    font-size: 15px;
+    font-size: 14px;
     
     
     
@@ -46,8 +46,17 @@ body {
     background-color: #262626;
     color: rgb(255, 255, 255);
     text-decoration: none;
+    text-transform: uppercase;
     
 }
+
+.menu ul li a:hover {
+    margin-top: 1px;
+    border-bottom:3px solid #EDEDED;
+    color: white;
+}
+
+
 .main {
     background-image: url(./images/banner.jpg);
     height: 600px;
@@ -58,7 +67,8 @@ body {
 }
 
 .menu-one {
-    padding-right: 700px;
+    padding-right: 300px;
+    margin-left: 200px;
 }
 .tanamao {
     display: grid;
@@ -142,9 +152,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    
-    
+  
 }
+
 
 .motoboy {
     background-image: url(https://tanamaoexpress.com.br/wp-content/uploads/2017/10/telentrega-motoboy.jpg);
@@ -227,12 +237,14 @@ body {
 .nao {
     font-size: 25px;
     background-color: #506c50;
+   
 }
 
 .nao-one p {
     padding-top: 50px;
     text-align: center;
     color: white;
+    
 }
 
 .nao-two {
@@ -257,7 +269,7 @@ body {
     
 }
 
-.nao button {
+.nao-two button {
     width: 150px;
     height: 40px;
     background-color: #262626;
@@ -265,4 +277,88 @@ body {
     border: none;
     float: right;
     margin-left: 505px;
+    margin-bottom: 50px;
 }
+
+.contato {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #262626;
+    padding-top: 50px;
+    
+}
+
+.contato-one {
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column  ;
+    
+}
+
+.contato-two {
+    display: flex;
+    align-items: center;
+    flex-direction: column  ;
+}
+
+.contato-tree {
+    display: flex;
+    align-items: center;
+    flex-direction: column  ;
+}
+
+.contato-four {
+    display: flex;
+    align-items: center;
+    flex-direction: column  ;
+}
+
+.contato p {
+    text-align: center;
+    color: white;
+}
+
+.contato-one p {
+    font-size: 14px;
+    
+}
+
+.contato-tree p {
+    padding: 0;
+    margin: 0;
+    color: #d3d02e !important;
+    
+}
+
+.contato-tree img {
+    margin-bottom: 10px;
+}
+
+.contato-four p {
+    font-weight: bold;
+}
+
+.last {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1e1e1e;
+    padding: 10px;    
+    margin: 0;
+}
+
+.last p {
+    padding-left: 300px;
+    font-size: 10px;
+    color: white;
+    
+    margin: 0;
+}
+
+.last img {
+    padding-right: 300px;
+}
+
+
+
+
