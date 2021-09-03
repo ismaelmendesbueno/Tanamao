@@ -220,5 +220,49 @@ body {
     font-size: 13px;
     font-family: "Roboto", arial, sans-serif;
     line-height: 2;
+    margin-bottom: 50px;
     
+}
+
+.nao {
+    font-size: 25px;
+    background-color: #506c50;
+}
+
+.nao-one p {
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+}
+
+.nao-two {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.nao-two input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 650px;
+    height: 40px;
+    margin-bottom: 20px;   
+    background: #d2e2d1;
+    border: none;
+    
+}
+
+.nao-two input:last-child {
+    height: 130px;
+    
+}
+
+.nao button {
+    width: 150px;
+    height: 40px;
+    background-color: #262626;
+    color: white;
+    border: none;
+    float: right;
+    margin-left: 505px;
 }
