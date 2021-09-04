@@ -66,6 +66,7 @@ p {
     height: 600px;
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
     
 }
@@ -75,14 +76,22 @@ p {
     margin-left: 200px;
 }
 .tanamao {
-    display: grid;
+    display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
    
 }
 
-.tanamao p {
+.tanamao-one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+}
+
+.tanamao-one p {
     color: white;
     font-size: 45px;
     font-weight: bold;
@@ -99,7 +108,7 @@ p {
    background-color: #506c50;
    width: 130px;
    height: 15px;
-   margin-left: 200px;
+   
    padding: 10px 10px;
 
 }

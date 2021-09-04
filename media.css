@@ -4,12 +4,19 @@
         flex-direction: column-reverse;
     }
 
-    .menu {
+    .menu-one {
+        padding-right: 0px;
+        margin-left: 0px;
+    }
+
+ 
+    .menu ul li {
         display: none;
+       
     }
 
     .tanamao a {
-        margin-left: 70px;
+        margin-left: 0px;
     }
 
     .nao-two input {
@@ -37,16 +44,20 @@
 
     .motoboy {
         width: 300px;
-        padding-left: 30px;
+        padding-left: 0px;
     }
 
     .motoboy-one {
         width: 300px;
-        padding-left: 30px;
+        padding-left: 0px;
+    }
+
+    .last img {
+        padding-right: 0px;
     }
 
     .motoboy-two {
         width: 300px;
-        padding-left: 30px;
+        padding-left: 0;
     }
 }
