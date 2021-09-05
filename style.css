@@ -378,6 +378,17 @@ p {
     padding-right: 300px;
 }
 
+#btn {
+    display: none;
+}
+.menuu {
+    display: none;
+}
+
+
+.show ol li {
+    display: flex !important;
+}
 
 
 
