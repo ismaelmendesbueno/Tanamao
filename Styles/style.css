@@ -471,6 +471,41 @@ p {
    
 }
 
+.entregas {
+    display: none;
+}
+
+.entrega {
+    display: none;
+}
+
+.active  {
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.active ul {
+    background-color: #262626;
+    height: 90px;
+    width: 50px;
+    display: grid;
+    padding-left: 0px;
+    position: fixed;
+    margin-top: 160px;
+    margin-right: 30px;
+
+}
+
+.active ul li a {
+    display: grid;
+    font-size: 13px;
+}
+
+
+
 /* ORÇAMENTO CSS */
 
 
