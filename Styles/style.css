@@ -438,6 +438,7 @@ p {
     text-transform: uppercase;
     color: #506c50;
     font-size: 30px;
+    text-align: center;
     
 }
 
@@ -528,4 +529,5 @@ p {
 
 .rastreamento p {
     font-size: 16px;
+    text-align: center;
 }
