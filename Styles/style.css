@@ -62,7 +62,7 @@ p {
 
 
 .main {
-    background-image: url(./images/banner.jpg);
+    background-image: url(/images/banner.jpg);
     height: 600px;
     display: flex;
     align-items: center;
@@ -411,9 +411,121 @@ p {
     font-size: 15px;
     font-family: "popins", sans-serif;
     text-transform: uppercase;
-    
+}
 
+.show ol li a {
+    text-decoration: none;
+    color: white;
 }
 
 
+/* EMPRESA CSS */
 
+
+
+.empresa {
+    background: #eee;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.empresa h1 {
+    padding-top: 150px;
+    text-transform: uppercase;
+    color: #506c50;
+    font-size: 30px;
+    
+}
+
+.empresa img {
+    padding-bottom: 80px;
+}
+
+
+.qualidade {
+    display: flex;
+    flex-direction: column;
+    color: #464646;
+    line-height: 1;
+    margin-left: 150px;
+    text-align: left;
+}
+
+.qualidade-one h1{
+    font-size: 20px;
+}
+
+.qualidade-two h1 {
+    font-size: 20px;
+}
+
+.qualidade-tree{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+/* ORÇAMENTO CSS */
+
+
+.formulario-one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.formulario-one h1 {
+    color: #506c50;
+    padding-top: 40px;
+}
+
+.formulario-one input {
+    width: 600px;
+    height: 60px;
+    border: none;
+    background-color: #d2e2d1;
+    margin-bottom: 30px;
+    
+}
+
+
+.formulario-one button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 60px;
+    background-color: #262626;
+    color: white;
+    font-size: 30PX;
+    margin-bottom: 30px;
+}
+
+
+/* RASTREAMENTO CSS */
+
+
+.rastreamento {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #464646;
+}
+
+
+.rastreamento h1 {
+    font-size: 30px;
+}
+
+.rastreamento p {
+    font-size: 16px;
+}
